@@ -1,0 +1,84 @@
+.cjp{
+    width: 30rem;
+    height: 32rem;
+    border:1px solid black;
+    border-radius: 2rem;
+    background-color:purple;
+    margin-left: 3rem;
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bt_anterior{
+    width: 10rem;
+    height: 3rem;
+    border: solid 0.1rem #000000;
+    background-color: #c19ae2;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt_anterior:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden;
+    background-color: rgb(163, 98, 220);
+}
+.caja_titulo{
+    width: 25rem;
+    height: 6rem;
+    border: solid 0.1rem #000000;
+    background-color: #482273;
+    border-radius: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja_texto{
+   font-size: 2.5rem;
+   font-weight: 200;
+   color:#fff;
+}
+
+.bt_siguiente{
+    width: 10rem;
+    height: 3rem;
+    border: solid 0.1rem #000000;
+    background-color: #c19ae2;
+    border-radius: 1rem;
+    margin: auto;
+    cursor: pointer;
+    display:inline-flex;
+    margin-top: 0.2rem;
+    margin-bottom: 8rem;
+    align-items:center;
+    justify-content: center;
+    margin-left: 6.5rem;
+ }
+ .bt_siguiente:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden;
+    background-color: rgb(163, 98, 220);
+}
+#bt_user {
+    width: 10rem;
+    height: 3rem;
+    border: solid 0.1rem #000000;
+    border-radius: 1rem;
+    background-color:#c19ae2;
+    cursor: pointer;
+    margin-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt_user:hover {
+    background-color: rgb(163, 98, 220);
+}
